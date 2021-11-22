@@ -2,11 +2,11 @@
 label: Project
 hide_body: true
 fields:
-- name: name
+- name: title
   type: text
   config:
     required: false
-  label: Name
+  label: Title
   description: Name of the project lol
 - name: description
   type: textarea
