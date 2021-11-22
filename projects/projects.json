@@ -11,8 +11,8 @@
       "title": "Test project 2",
       "description": "very epic",
       "image": "/uploads/sans-t-pose.jpg",
-      "code": "",
-      "live": ""
+      "code": "https://www.google.com/",
+      "live": "https://www.google.com/"
     }
   ]
 }
