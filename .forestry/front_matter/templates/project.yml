@@ -24,3 +24,5 @@ fields:
     maxSize: 64
   label: Image
   description: Get that juicy preview image
+pages:
+- projects/projects.json
