@@ -10,17 +10,5 @@
       "description": "very epic",
       "image": "/uploads/sans-t-pose.jpg"
     }
-  ],
-  "projections": [
-    {
-      "template": "project",
-      "number_": "69",
-      "title": "eafsdf"
-    },
-    {
-      "template": "project",
-      "number_": "420",
-      "title": "hello"
-    }
   ]
 }
