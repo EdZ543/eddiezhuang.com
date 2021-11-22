@@ -4,11 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: bruh
-  label: Bruh
-- type: heading
-  label: sfdsdf
+- type: directory
+  path: ''
+  label: d
+  create: all
+  match: "**/*"
 - type: directory
   path: projects
   label: Projects
