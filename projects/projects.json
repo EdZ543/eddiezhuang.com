@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "title": "Test Project 1",
+      "description": "sdfasdfsdlfsdf",
+      "image": "/uploads/cat-girl.gif"
+    },
+    {
+      "title": "Test project 2",
+      "description": "very epic",
+      "image": "/uploads/sans-t-pose.jpg"
+    }
+  ]
+}

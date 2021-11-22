@@ -33,3 +33,5 @@ fields:
     labelField: 
   label: Projects
   description: Orderable list of projects, in a UI. :))) epic
+pages:
+- projects/projects.json
