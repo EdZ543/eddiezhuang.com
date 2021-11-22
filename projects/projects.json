@@ -10,5 +10,17 @@
       "description": "sdfasdfsdlfsdf",
       "image": "/uploads/cat-girl.gif"
     }
+  ],
+  "projections": [
+    {
+      "template": "project",
+      "number_": "69",
+      "title": "eafsdf"
+    },
+    {
+      "template": "project",
+      "number_": "420",
+      "title": "hello"
+    }
   ]
 }
