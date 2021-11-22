@@ -1,4 +1,19 @@
 ---
 label: Project
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: number_
+  type: number
+  label: Number?
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
