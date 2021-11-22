@@ -33,5 +33,13 @@ fields:
     labelField: 
   label: Projects
   description: Orderable list of projects, in a UI. :))) epic
+- name: projections
+  type: blocks
+  label: Projections
+  template_types:
+  - project
+  config:
+    min: 
+    max: 
 pages:
 - projects/projects.json
