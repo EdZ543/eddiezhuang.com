@@ -27,6 +27,19 @@ fields:
       maxSize: 64
     label: Image
     description: A juicy preview of your creation
+  - name: code
+    type: text
+    config:
+      required: false
+    label: Code
+    description: Epic link to code / github
+  - name: live
+    type: text
+    config:
+      required: false
+    label: Live
+    description: Link to live <strong>demo </strong>of project, let the users just
+      jump right in there
   config:
     min: 
     max: 
