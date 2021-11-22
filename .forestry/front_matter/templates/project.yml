@@ -36,5 +36,3 @@ fields:
     required: false
   label: Live
   description: Link to the live demo of the project
-pages:
-- projects/bruh.mdx
