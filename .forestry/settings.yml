@@ -5,9 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: hello
+  label: Hello
+  match: "**/*"
+- type: document
   path: test
   label: test
-  match: "**/*"
 - type: directory
   path: projects
   label: Projects
