@@ -3,12 +3,16 @@
     {
       "title": "Test Project 1",
       "description": "sdfasdfsdlfsdf",
-      "image": "/uploads/cat-girl.gif"
+      "image": "/uploads/cat-girl.gif",
+      "code": "https://www.google.com/",
+      "live": "https://www.google.com/"
     },
     {
       "title": "Test project 2",
       "description": "very epic",
-      "image": "/uploads/sans-t-pose.jpg"
+      "image": "/uploads/sans-t-pose.jpg",
+      "code": "",
+      "live": ""
     }
   ]
 }
