@@ -43,4 +43,3 @@ fields:
   default: now
 pages:
 - posts/test-post.mdx
-- posts/test-post.mdx
