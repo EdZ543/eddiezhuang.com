@@ -5,11 +5,17 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: projects
+  label: Projects
+  create: all
+  match: "**/*"
+  new_doc_ext: ".mdx"
+- type: directory
   path: posts
   label: Posts
   create: all
   match: "**/*"
-  new_doc_ext: ".mdx"
+  new_doc_ext: mdx
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
