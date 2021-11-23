@@ -8,16 +8,30 @@ fields:
   fields:
   - type: text
     name: title
-    label: title
-  - type: text
-    name: description
-    label: description
-  - type: file
-    name: image
-    label: image
-  - type: text
-    name: code
-    label: code
-  - type: text
-    name: live
-    label: live
+    label: Title
+    description: An epic title for your project
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+    description: Describe that epic project!
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: live
+    type: text
+    config:
+      required: false
+    label: Live
+  - name: code
+    type: text
+    config:
+      required: false
+    label: Code
