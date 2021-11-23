@@ -1,16 +1,9 @@
 [
   {
     "title": "Test Project 1",
-    "description": "sdfasdfsdlfsdf",
+    "description": "An epic project of epic proportions.",
     "image": "/uploads/cat-girl.gif",
-    "code": "https://www.google.com/",
-    "live": "https://www.google.com/"
-  },
-  {
-    "title": "Test project 2",
-    "description": "very epic",
-    "image": "/uploads/sans-t-pose.jpg",
-    "code": "https://www.google.com/",
-    "live": ""
+    "live": "https://www.google.com/",
+    "code": "https://www.google.com/"
   }
 ]
