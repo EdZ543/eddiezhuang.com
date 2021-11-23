@@ -7,11 +7,9 @@ sections:
 - type: document
   path: projects/test2.cpp
   label: test2
-  match: "**/*"
 - type: document
   path: projects/test.json
   label: test
-  match: "**/*"
 - type: document
   path: projects/projects.json
   label: Projects
