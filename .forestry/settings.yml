@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: projects/test2.json
+  path: projects/test2.cpp
   label: test2
   match: "**/*"
 - type: document
