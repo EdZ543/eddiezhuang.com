@@ -18,13 +18,6 @@ fields:
       format: markdown
   label: Description
   description: Description of the post that you post epicly
-- name: author
-  type: text
-  config:
-    required: false
-  label: Author
-  description: Who wrote this? (probably eddie)
-  default: ''
 - name: image
   type: file
   config:
@@ -38,7 +31,7 @@ fields:
   config:
     required: false
     date_format: 
-    time_format: 
+    time_format: " "
     display_utc: false
   default: now
 pages:
