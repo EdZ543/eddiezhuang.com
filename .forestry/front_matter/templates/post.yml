@@ -35,4 +35,5 @@ fields:
     display_utc: false
   default: now
 pages:
+- posts/a-second-test-post.mdx
 - posts/test-post.mdx
