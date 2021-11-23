@@ -25,15 +25,19 @@ fields:
     config:
       maxSize: 64
     label: Image
+    description: A nice little preview image of your creation.
   - name: live
     type: text
     config:
       required: false
     label: Live
+    description: Link to the live project, let the user try it out!
   - name: code
     type: text
     config:
       required: false
     label: Code
+    description: Link to the code of the project, the github, for those employers
+      to gawk at
 pages:
 - projects.json
