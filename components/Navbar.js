@@ -10,16 +10,16 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap bg-darkBlue p-3'>
+      <nav className='flex items-center flex-wrap p-3'>
         <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
-            <span className='text-xl text-white tracking-wide'>
+            <span className='text-xl tracking-wide'>
               Eddie Zhuang
             </span>
           </a>
         </Link>
         <button
-          className='inline-flex p-3 lg:hidden text-white ml-auto'
+          className='inline-flex p-3 md:hidden ml-auto'
           onClick={handleClick}
         >
           <svg
@@ -40,31 +40,31 @@ export const Navbar = () => {
         <div
           className={`${
             active ? '' : 'hidden'
-          }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
+          }   w-full md:inline-flex md:flex-grow md:w-auto`}
         >
-          <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
+          <div className='md:inline-flex md:flex-row md:ml-auto md:w-auto w-full md:items-center items-start flex flex-col md:h-auto'>
             <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 text-white items-center justify-center'>
+              <a className='md:inline-flex md:w-auto w-full px-3 py-2 items-center justify-center'>
                 Home
               </a>
             </Link>
             <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 text-white items-center justify-center'>
+              <a className='md:inline-flex md:w-auto w-full px-3 py-2 items-center justify-center'>
                 Projects
               </a>
             </Link>
-            <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 text-white items-center justify-center'>
+            <Link href='/experience'>
+              <a className='md:inline-flex md:w-auto w-full px-3 py-2 items-center justify-center'>
                 Experience
               </a>
             </Link>
             <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 text-white items-center justify-center'>
+              <a className='md:inline-flex md:w-auto w-full px-3 py-2 items-center justify-center'>
                 Posts
               </a>
             </Link>
             <Link href='/'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 text-white items-center justify-center'>
+              <a className='md:inline-flex md:w-auto w-full px-3 py-2 items-center justify-center'>
                 Contact
               </a>
             </Link>
