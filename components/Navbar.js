@@ -52,7 +52,7 @@ export const Navbar = () => {
                 Home
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/projects'>
               <a className='md:inline-flex md:w-auto w-full px-3 py-2 items-center justify-center'>
                 Projects
               </a>
