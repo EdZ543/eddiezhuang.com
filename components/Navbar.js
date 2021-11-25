@@ -47,11 +47,6 @@ export const Navbar = () => {
           }   w-full md:inline-flex md:flex-grow md:w-auto`}
         >
           <div className='md:inline-flex md:flex-row md:ml-auto md:w-auto w-full md:items-center items-start flex flex-col md:h-auto'>
-            <Link href='/'>
-              <a className='md:inline-flex md:w-auto w-full pl-6 py-2 items-center justify-center'>
-                Home
-              </a>
-            </Link>
             <Link href='/projects'>
               <a className='md:inline-flex md:w-auto w-full pl-6 py-2 items-center justify-center'>
                 Projects
