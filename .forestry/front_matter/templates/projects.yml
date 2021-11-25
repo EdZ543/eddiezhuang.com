@@ -39,5 +39,3 @@ fields:
     label: Code
     description: Link to the code of the project, the github, for those employers
       to gawk at
-pages:
-- projects.json
