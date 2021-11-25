@@ -10,12 +10,14 @@ function MyApp({ Component, pageProps }) {
       <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     </Head>
 
-    <div className="h-full min-h-screen bg-palette-blue-dark text-palette-white">
+    <div className="flex flex-col h-screen">
       <Navbar />
-      <div className="flex w-screen justify-center">
+
+      <div className="flex-1 overflow-y-auto justify-center">
         <Component {...pageProps} />
+        <Footer />
       </div>
-      <Footer />
+
     </div>
   </>
 }
