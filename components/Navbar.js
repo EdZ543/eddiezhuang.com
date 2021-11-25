@@ -1,5 +1,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -10,7 +13,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap p-3'>
+      <nav className='flex items-center flex-wrap p-3 bg-palette-blue-dark'>
         <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
             <span className='text-xl tracking-wide'>
@@ -19,7 +22,7 @@ export const Navbar = () => {
           </a>
         </Link>
         <button
-          className='inline-flex p-3 md:hidden ml-auto'
+          className='inline-flex md:hidden ml-auto'
           onClick={handleClick}
         >
           <svg
@@ -37,6 +40,7 @@ export const Navbar = () => {
             />
           </svg>
         </button>
+
         <div
           className={`${
             active ? '' : 'hidden'

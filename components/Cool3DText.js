@@ -12,10 +12,12 @@ export default function Cool3DText() {
     height: 1
   };
 
-  return <Canvas className="aspect-w-5 aspect-h-5">
-    <mesh position={[-5, 0, -10]}>
-      <textGeometry attach='geometry' args={['Hi, I\'m Eddie!', textOptions]} />
-      <meshStandardMaterial attach='material' />
-    </mesh>
-  </Canvas>
+  // return <Canvas className="aspect-w-1 aspect-h-1">
+  //   <mesh position={[-5, 0, -10]}>
+  //     <textGeometry attach='geometry' args={['Hi, I\'m Eddie!', textOptions]} />
+  //     <meshStandardMaterial attach='material' />
+  //   </mesh>
+  // </Canvas>
+
+  return <p>bruh</p>
 }
