@@ -1,5 +1,7 @@
 import projectjson from '../projects.json';
 import Image from 'next/image'
+import { BsCode, BsCodeSlash } from 'react-icons/bs';
+import { FiExternalLink } from 'react-icons/fi';
 
 export const getStaticProps = async () => {
   return {
@@ -16,7 +18,7 @@ export default function Projects({ projects }) {
 
       <div className="grid grid-cols-4 gap-3">
         {projects.map(project => (
-          <div className="rounded-md border-2 border-opacity-50">
+          <div className="flex flex-col rounded-md border-2 border-opacity-50">
             <Image
               src={project.image}
               width={500}
@@ -24,7 +26,11 @@ export default function Projects({ projects }) {
               objectFit="cover"
             />
             <h4><b>{project.title}</b></h4>
-            <p>{project.description}</p>
+            <p className="flex-1">{project.description}</p>
+            <div className="flex justify-evenly text-3xl">
+              <a href={project.live} target="_blank"><FiExternalLink /></a>
+              <a href={project.code} target="_blank"><BsCodeSlash /></a>
+            </div>
           </div>
         ))}
       </div>
