@@ -12,7 +12,7 @@ export default function Home() {
         Some of my other hobbies include anime, youtube, and video games.
       </p>
 
-      <Link href="/experience" passHref>
+      <Link href="/projects" passHref>
         <button href="/experience" className="bg-palette-blue-light font-bold py-2 px-4 rounded inline-flex items-center mx-auto mb-10">
           Check Out My Projects!
         </button>

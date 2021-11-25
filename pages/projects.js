@@ -16,9 +16,9 @@ export default function Projects({ projects }) {
     <div>
       <h1 className="text-center text-5xl">Projects</h1>
 
-      <div className="grid grid-cols-4 gap-3">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 grid-rows-1">
         {projects.map(project => (
-          <div className="flex flex-col rounded-md border-2 border-opacity-50">
+          <div className="flex flex-col rounded-xl border-2 border-opacity-50 overflow-hidden">
             <Image
               src={project.image}
               width={500}
