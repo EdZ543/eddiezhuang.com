@@ -5,14 +5,12 @@ import Cool3DText from '../components/Cool3DText'
 export default function Home() {
   return (
     <Layout>
-      <div className="flex">
-        <div className="w-2/3 bg-gray-800">
-          <div className="object-contain bg-red-300">
-            <Cool3DText />
-          </div>
+      <div className="flex md:flex-row flex-col w-full items-center justify-center">
+        <div className="md:w-2/3 flex items-center w-full">
+          <Cool3DText />
         </div>
-        <div className="w-1/3 flex flex-col justify-center">
-          <p className="max-w-sm m-5">
+        <div className="md:w-1/3 flex flex-col justify-center w-full">
+          <p className="p-5">
             I&apos;m a high school student who really likes computer science and math.
             I spend most of my time working on Machine Learning, Web Development, and Game Development projects.
             I also enjoy competitive programming and contest math.
@@ -20,7 +18,7 @@ export default function Home() {
           </p>
 
           <Link href="/projects" passHref>
-            <button href="/experience" className="bg-blue-400 font-bold py-2 px-4 rounded inline-flex items-center mx-auto">
+            <button href="/experience" className="bg-blue-400 font-bold py-2 px-4 rounded inline-flex items-center mx-auto m-5">
               Check Out My Projects!
             </button>
           </Link>
