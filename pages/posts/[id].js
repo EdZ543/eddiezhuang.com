@@ -4,6 +4,8 @@ import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote } from 'next-mdx-remote'
 import { getPostById, getSortedPostsData } from '../../lib/posts'
 import rehypeHighlight from 'rehype-highlight'
+import rehypeKatex from 'rehype-katex'
+import remarkMath from 'remark-math'
 
 export default function Post({ meta, content }) {
   return <Layout>
@@ -21,7 +23,8 @@ export async function getStaticProps({ params }) {
   const content = await serialize(post.content,
     {
       mdxOptions: {
-        rehypePlugins: [rehypeHighlight],
+        remarkPlugins: [remarkMath],
+        rehypePlugins: [rehypeHighlight, rehypeKatex],
       }
     }  
   );
