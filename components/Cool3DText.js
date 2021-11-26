@@ -8,16 +8,16 @@ export default function Cool3DText() {
 
   const textOptions = {
     font,
-    size: 5,
-    height: 1
+    size: 2.5,
+    height: 1,
+    width: '100%',
+    textAlign: 'center'
   };
 
-  // return <Canvas className="aspect-w-1 aspect-h-1">
-  //   <mesh position={[-5, 0, -10]}>
-  //     <textGeometry attach='geometry' args={['Hi, I\'m Eddie!', textOptions]} />
-  //     <meshStandardMaterial attach='material' />
-  //   </mesh>
-  // </Canvas>
-
-  return <p>bruh</p>
+  return <Canvas>
+    <mesh position={[-10, 0, -10]}>
+      <textGeometry attach='geometry' args={['Hi, I\'m Eddie!', textOptions]} />
+      <meshStandardMaterial attach='material' />
+    </mesh>
+  </Canvas>
 }
