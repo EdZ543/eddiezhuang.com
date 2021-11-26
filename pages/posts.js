@@ -1,6 +1,7 @@
 import { getSortedPostsData } from '../lib/posts'
 import Image from 'next/image'
 import { format } from "date-fns";
+import Layout from '../components/Layout'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -18,7 +19,7 @@ function formatDate(date){
 
 export default function Posts({ allPostsData }) {
   return (
-    <>
+    <Layout>
       <div className="flex flex-col w-full gap-3">
         {allPostsData.map(({ title, description, image, date }) => (
           <div key={title} className="flex sm:flex-row flex-col rounded-xl border-2 border-opacity-50 overflow-hidden">
@@ -40,6 +41,6 @@ export default function Posts({ allPostsData }) {
           </div>
         ))}
       </div>
-    </>
+    </Layout>
   )
 }
