@@ -12,6 +12,7 @@
     "@formspree/react": "^2.2.4",
     "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
+    "@mapbox/rehype-prism": "^0.8.0",
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^12.0.4",
     "@react-three/drei": "^7.22.7",
@@ -27,6 +28,7 @@
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
     "react-social-icons": "^5.6.1",
+    "rehype-highlight": "^5.0.0",
     "superjson": "^1.8.0",
     "three": "0.121.1"
   },

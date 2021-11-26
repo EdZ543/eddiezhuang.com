@@ -3,6 +3,7 @@ import BlogLayout from '../../components/BlogLayout'
 import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote } from 'next-mdx-remote'
 import { getPostById, getSortedPostsData } from '../../lib/posts'
+import rehypeHighlight from 'rehype-highlight'
 
 export default function Post({ meta, content }) {
   return <Layout>
@@ -17,7 +18,13 @@ export default function Post({ meta, content }) {
 export async function getStaticProps({ params }) {
   const post = getPostById(params.id)
   
-  const content = await serialize(post.content);
+  const content = await serialize(post.content,
+    {
+      mdxOptions: {
+        rehypePlugins: [rehypeHighlight],
+      }
+    }  
+  );
 
   return {
     props: {

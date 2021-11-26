@@ -8,6 +8,7 @@ export default function Layout({ children }) {
       <Head>
         <title>Eddie Zhuang</title>
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-dark.min.css" />
       </Head>
 
       <div className="flex flex-col min-h-screen max-w-screen-xl mx-auto px-10">

@@ -35,6 +35,11 @@ module.exports = {
                 borderBottomColor: theme("colors.gray.700"),
               },
               "tbody tr": { borderBottomColor: theme("colors.gray.800") },
+              img: {
+                borderRadius: '3%',
+                marginLeft: 'auto',
+                marginRight: 'auto'
+              }
             },
           },
         };
