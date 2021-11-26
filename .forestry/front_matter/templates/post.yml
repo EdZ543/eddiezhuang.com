@@ -37,4 +37,3 @@ fields:
   default: now
 pages:
 - posts/a-second-test-post.mdx
-- posts/test-post.mdx
