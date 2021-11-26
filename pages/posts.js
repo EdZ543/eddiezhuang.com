@@ -18,8 +18,8 @@ export default function Posts({ allPostsData }) {
     <Layout>
       <div className="flex flex-col w-full gap-3">
         {allPostsData.map((post) => (
-          <Link href={"/posts/" + post.id}>
-            <a key={post.id} className="flex sm:flex-row flex-col rounded-xl border-2 border-opacity-50 overflow-hidden">
+          <Link key={post.id} href={"/posts/" + post.id}>
+            <a className="flex sm:flex-row flex-col rounded-xl border-2 border-opacity-50 overflow-hidden">
               <div className="h-40 w-full relative sm:h-40 sm:w-40">
                 <Image
                   src={post.image}
