@@ -17,6 +17,7 @@
     "@react-three/drei": "^7.22.7",
     "@react-three/fiber": "^7.0.19",
     "@tailwindcss/aspect-ratio": "^0.3.0",
+    "@tailwindcss/typography": "^0.4.1",
     "babel-plugin-superjson-next": "^0.4.2",
     "date-fns": "^2.26.0",
     "gray-matter": "^4.0.3",
@@ -33,6 +34,7 @@
     "autoprefixer": "^10.4.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.0",
+    "next-mdx-remote": "^3.0.8",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19"
   }

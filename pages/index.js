@@ -15,7 +15,7 @@ export default function Home() {
         </p>
 
         <Link href="/projects" passHref>
-          <button href="/experience" className="bg-palette-blue-light font-bold py-2 px-4 rounded inline-flex items-center mx-auto m-3">
+          <button href="/experience" className="bg-blue-400 font-bold py-2 px-4 rounded inline-flex items-center mx-auto m-3">
             Check Out My Projects!
           </button>
         </Link>

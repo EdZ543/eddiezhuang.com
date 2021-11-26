@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 #__next {
-    @apply bg-palette-blue-dark text-palette-white
+    @apply bg-gray-900 text-white
 }

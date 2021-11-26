@@ -13,7 +13,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap py-3 bg-palette-blue-dark'>
+      <nav className='flex items-center flex-wrap py-3 bg-gray-900'>
         <Link href='/'>
           <a className='inline-flex items-center p-2'>
             <span className='text-xl tracking-wide'>

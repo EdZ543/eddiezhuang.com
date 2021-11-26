@@ -45,7 +45,7 @@ export const ContactForm = () => {
           errors={state.errors}
         />
         <div className="w-full flex justify-end">
-          <button type="submit" disabled={state.submitting} href="/experience" className="bg-palette-blue-light font-bold py-2 px-4 rounded inline-flex items-center">
+          <button type="submit" disabled={state.submitting} href="/experience" className="bg-gray-900 font-bold py-2 px-4 rounded inline-flex items-center">
             Submit
           </button>
         </div>
