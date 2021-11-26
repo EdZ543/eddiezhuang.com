@@ -35,3 +35,5 @@ fields:
     display_utc: false
     export_format: '"YYYY-MM-DD h:mm A"'
   default: now
+pages:
+- posts/first-post.mdx
