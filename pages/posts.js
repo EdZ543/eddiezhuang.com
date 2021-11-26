@@ -21,7 +21,7 @@ export default function Posts({ allPostsData }) {
     <>
       <div className="flex flex-col w-full gap-3">
         {allPostsData.map(({ title, description, image, date }) => (
-          <div className="flex sm:flex-row flex-col rounded-xl border-2 border-opacity-50 overflow-hidden">
+          <div key={title} className="flex sm:flex-row flex-col rounded-xl border-2 border-opacity-50 overflow-hidden">
             <div className="h-40 w-full relative sm:h-40 sm:w-40">
               <Image
                 src={image}
