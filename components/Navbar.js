@@ -62,7 +62,7 @@ export const Navbar = () => {
                 Posts
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/contact'>
               <a className='sm:inline-flex sm:w-auto w-full px-3 py-2 items-center justify-center'>
                 Contact
               </a>
