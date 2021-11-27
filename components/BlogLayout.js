@@ -1,4 +1,5 @@
 import { formatDate } from '../lib/formatDate'
+import Comments from './Comments'
 
 export default function Layout({ meta, id, children }) {
   return (
@@ -13,13 +14,8 @@ export default function Layout({ meta, id, children }) {
         {children}
       </div>
 
-      <script src="https://utteranc.es/client.js"
-        repo="EdZ543/eddiezhuang.com-Comments"
-        issue-term={id}
-        theme="dark-blue"
-        crossOrigin="anonymous"
-        async>
-      </script>
+      <h2 className="text-2xl pt-28"><b>Comments</b></h2>
+      <Comments />      
     </div>
   )
 }
