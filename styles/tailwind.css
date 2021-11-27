@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 #__next {
-    @apply bg-gray-900 text-white
+    @apply bg-gray-900 text-gray-50
 }

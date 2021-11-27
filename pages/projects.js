@@ -15,7 +15,7 @@ export const getStaticProps = async () => {
 export default function Projects({ projects }) {
   return (
     <Layout>
-      <div>
+      <div className="max-w-6xl">
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 grid-rows-1">
           {projects.map(project => (
             <div key={project.title} className="flex flex-col rounded-xl border-2 border-opacity-50 overflow-hidden">

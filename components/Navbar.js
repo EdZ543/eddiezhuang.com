@@ -3,6 +3,7 @@ import { useState } from 'react';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
+import Image from 'next/image'
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -13,23 +14,26 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap py-3 bg-gray-900'>
+      <nav className='flex flex-wrap items-center py-2'>
         <Link href='/'>
-          <a className='inline-flex items-center p-2'>
-            <span className='text-xl tracking-wide'>
-              Eddie Zhuang
-            </span>
+          <a>
+            <Image
+              src="/logo.svg"
+              width={50}
+              height={50}
+            />
           </a>
         </Link>
+
         <button
-          className='inline-flex sm:hidden ml-auto p-2'
+          className='inline-flex sm:hidden ml-auto'
           onClick={handleClick}
         >
           <svg
             className='w-6 h-6'
             fill='none'
             stroke='currentColor'
-            viewBox='0 0 20 24'
+            viewBox='0 0 24 24'
             xmlns='http://www.w3.org/2000/svg'
           >
             <path
@@ -48,22 +52,22 @@ export const Navbar = () => {
         >
           <div className='sm:inline-flex sm:flex-row sm:ml-auto sm:w-auto w-full sm:items-center items-start flex flex-col sm:h-auto'>
             <Link href='/projects'>
-              <a className='sm:inline-flex sm:w-auto w-full px-3 py-2 items-center justify-center'>
+              <a className='sm:inline-flex sm:w-auto w-full sm:px-4 py-2 items-center justify-center'>
                 Projects
               </a>
             </Link>
-            <Link href='/experience'>
-              <a className='sm:inline-flex sm:w-auto w-full px-3 py-2 items-center justify-center'>
-                Experience
+            <Link href='/resume'>
+              <a className='sm:inline-flex sm:w-auto w-full sm:px-4 py-2 items-center justify-center'>
+                Resume
               </a>
             </Link>
             <Link href='/posts'>
-              <a className='sm:inline-flex sm:w-auto w-full px-3 py-2 items-center justify-center'>
+              <a className='sm:inline-flex sm:w-auto w-full sm:px-4 py-2 items-center justify-center'>
                 Posts
               </a>
             </Link>
             <Link href='/contact'>
-              <a className='sm:inline-flex sm:w-auto w-full px-3 py-2 items-center justify-center'>
+              <a className='sm:inline-flex sm:w-auto w-full sm:px-4 py-2 items-center justify-center'>
                 Contact
               </a>
             </Link>

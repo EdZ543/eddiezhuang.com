@@ -39,7 +39,7 @@ export function Text(){
   
   useFrame(({ clock }) => {
     myMesh.current.rotation.x = -mouseY * 0.3;
-    myMesh.current.rotation.y = mouseX * 0.05;
+    myMesh.current.rotation.y = mouseX * 0.03;
   })
 
   return <mesh ref={myMesh}>
@@ -51,7 +51,7 @@ export function Text(){
 }
 
 export default function Cool3DText() {
-  return <div className="w-full relative" style={{paddingBottom: '15%'}}>
+  return <div className="w-full relative" style={{paddingBottom: '18%'}}>
     <div className="absolute h-full w-full object-cover">
       <Canvas>
         <Text />
