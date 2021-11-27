@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#__next {
-    @apply bg-gray-900 text-gray-50
+html, body, #__next {
+    @apply bg-gray-900 text-gray-50 h-full
 }
