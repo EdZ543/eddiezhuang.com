@@ -15,7 +15,7 @@ export default function Layout({ meta, id, children }) {
       </div>
 
       <h2 className="text-2xl pt-28"><b>Comments</b></h2>
-      <Comments />      
+      <Comments id={id}/>      
     </div>
   )
 }

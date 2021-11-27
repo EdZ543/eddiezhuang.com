@@ -10,7 +10,7 @@ export default class Components extends Component {
     let scriptEl = document.createElement("script");
     scriptEl.setAttribute("src", "https://utteranc.es/client.js")
     scriptEl.setAttribute("repo", "EdZ543/eddiezhuang.com-Comments")
-    scriptEl.setAttribute("issue-term", "url")
+    scriptEl.setAttribute("issue-term", this.props.id)
     scriptEl.setAttribute("theme", "dark-blue")
     scriptEl.setAttribute("crossorigin", "anonymous")
     scriptEl.setAttribute("async", true)
