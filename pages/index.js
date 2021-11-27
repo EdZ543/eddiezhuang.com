@@ -1,6 +1,8 @@
 import Layout from '../components/Layout'
 import Cool3DText from '../components/Cool3DText'
 import Button from '../components/Button'
+import SecondaryButton from '../components/SecondaryButton'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -18,10 +20,18 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mx-auto my-10">
-          <Button href="/projects">
-            Check Out My Projects!
-          </Button>
+        <div className="flex my-10 gap-4 justify-center">
+            <Button>
+              <Link href="/projects">
+                Check Out My Projects!
+              </Link>
+            </Button>
+
+            <SecondaryButton>
+              <Link href="/contact" passHref>
+                Hire me!
+              </Link>
+            </SecondaryButton>
         </div>
       </div>
     </Layout>
