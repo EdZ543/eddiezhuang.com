@@ -1,5 +1,6 @@
 import { formatDate } from '../lib/formatDate'
 import Comments from './Comments'
+import LikeButton from './LikeButton'
 
 export default function Layout({ meta, id, children }) {
   return (
@@ -7,9 +8,10 @@ export default function Layout({ meta, id, children }) {
       <h1 className="text-5xl text-blue-500"><b>{meta.title}</b></h1>
 
       <div className="text-sm text-white text-opacity-50 mb-10">
-        <p>Eddie Zhuang</p>
-        <p>{formatDate(meta.date)}</p>
+        <p>Written by Eddie Zhuang on {formatDate(meta.date)}</p>
       </div>
+
+      <LikeButton />
 
       <div className="max-w-screen-md prose">
         {children}
