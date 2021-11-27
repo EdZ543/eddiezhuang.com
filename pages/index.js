@@ -9,6 +9,7 @@ export default function Home() {
         <div className="flex items-center w-full">
           <Cool3DText />
         </div>
+        
         <div className="flex flex-col justify-center w-full max-w-lg">
           <p className="sm:text-lg text-sm text-center">
             I&apos;m a high school student who really likes computer science and math.

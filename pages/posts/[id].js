@@ -7,9 +7,9 @@ import rehypeHighlight from 'rehype-highlight'
 import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 
-export default function Post({ meta, content }) {
+export default function Post({ id, meta, content }) {
   return <Layout>
-    <BlogLayout meta={meta}>
+    <BlogLayout meta={meta} id={id}>
       <div className="w-full max-w-screen-md">
         <MDXRemote {...content} />
       </div>
@@ -31,6 +31,7 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
+      id: params.id,
       meta: post.meta,
       content
     }

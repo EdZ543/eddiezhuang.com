@@ -1,6 +1,6 @@
 import { formatDate } from '../lib/formatDate'
 
-export default function Layout({ meta, children }) {
+export default function Layout({ meta, id, children }) {
   return (
     <div>
       <h1 className="text-5xl text-blue-400"><b>{meta.title}</b></h1>
@@ -12,6 +12,14 @@ export default function Layout({ meta, children }) {
       <div className="prose">
         {children}
       </div>
+
+      <script src="https://utteranc.es/client.js"
+        repo="EdZ543/eddiezhuang.com-Comments"
+        issue-term={id}
+        theme="dark-blue"
+        crossOrigin="anonymous"
+        async>
+      </script>
     </div>
   )
 }
