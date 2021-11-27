@@ -38,12 +38,12 @@ export function Text(){
   }
   
   useFrame(({ clock }) => {
-    myMesh.current.rotation.x = -mouseY * 0.5;
-    myMesh.current.rotation.y = mouseX * 0.08;
+    myMesh.current.rotation.x = -mouseY * 0.3;
+    myMesh.current.rotation.y = mouseX * 0.05;
   })
 
   return <mesh ref={myMesh}>
-    <mesh position={[-10, -1.3, -0.2]}>
+    <mesh position={[-10.5, -1.3, 1.5]}>
       <textGeometry attach='geometry' args={['Hi, I\'m Eddie!', textOptions]} />
       <meshNormalMaterial attach='material' color='hotpink'/>
     </mesh>
@@ -51,7 +51,7 @@ export function Text(){
 }
 
 export default function Cool3DText() {
-  return <div className="w-full relative" style={{paddingBottom: '20%'}}>
+  return <div className="w-full relative" style={{paddingBottom: '15%'}}>
     <div className="absolute h-full w-full object-cover">
       <Canvas>
         <Text />
