@@ -10,9 +10,7 @@ import remarkMath from 'remark-math'
 export default function Post({ id, meta, content }) {
   return <Layout>
     <BlogLayout meta={meta} id={id}>
-      <div className="w-full max-w-screen-md">
-        <MDXRemote {...content} />
-      </div>
+      <MDXRemote {...content} />
     </BlogLayout>
   </Layout>
 }
