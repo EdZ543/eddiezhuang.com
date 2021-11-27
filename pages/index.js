@@ -5,12 +5,12 @@ import Cool3DText from '../components/Cool3DText'
 export default function Home() {
   return (
     <Layout>
-      <div className="flex md:flex-row flex-col w-full items-center justify-center">
-        <div className="md:w-2/3 flex items-center w-full">
+      <div className="flex  flex-col w-full items-center justify-center">
+        <div className="flex items-center w-full">
           <Cool3DText />
         </div>
-        <div className="md:w-1/3 flex flex-col justify-center w-full">
-          <p className="p-5">
+        <div className="flex flex-col justify-center w-full max-w-lg">
+          <p className="sm:text-lg text-sm text-center">
             I&apos;m a high school student who really likes computer science and math.
             I spend most of my time working on Machine Learning, Web Development, and Game Development projects.
             I also enjoy competitive programming and contest math.

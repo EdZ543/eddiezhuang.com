@@ -10,27 +10,43 @@ export function Text(){
   const textOptions = {
     font,
     size: 2,
-    height: 1,
+    height: 0.5,
+    bevelEnabled: true,
+    bevelThickness: 0.1,
+		bevelSize: 0.1,
   };
   
   const myMesh = React.useRef();
   
-  document.addEventListener('mousemove', onDocumentMouseMove, false);
+  document.addEventListener('mousemove', getMousePos, false);
+  document.addEventListener('touchmove', getMousePos, false);
   
   var mouseX = 0, mouseY = 0;
   
-  function onDocumentMouseMove(event){
-    mouseX = (event.clientX / window.innerWidth) * 2 - 1;
-    mouseY = -(event.clientY / window.innerHeight) * 2 + 1;
+  function getMousePos(e){
+    let x = 0, y = 0;
+
+    if(e.type == 'touchstart' || e.type == 'touchmove' || e.type == 'touchend' || e.type == 'touchcancel'){
+        var evt = (typeof e.originalEvent === 'undefined') ? e : e.originalEvent;
+        var touch = evt.touches[0] || evt.changedTouches[0];
+        x = touch.pageX;
+        y = touch.pageY;
+    } else if (e.type == 'mousedown' || e.type == 'mouseup' || e.type == 'mousemove' || e.type == 'mouseover'|| e.type=='mouseout' || e.type=='mouseenter' || e.type=='mouseleave') {
+        x = e.clientX;
+        y = e.clientY;
+    }
+
+    mouseX = (x / window.innerWidth) * 2 - 1;
+    mouseY = -(y / window.innerHeight) * 2 + 1;
   }
   
   useFrame(({ clock }) => {
-    myMesh.current.rotation.x = -mouseY * 0.5;
-    myMesh.current.rotation.y = mouseX * 0.08;
+    myMesh.current.rotation.x = -mouseY * 0.2;
+    myMesh.current.rotation.y = mouseX * 0.05;
   })
 
   return <mesh ref={myMesh}>
-    <mesh position={[-8.5, -1, -0.2]}>
+    <mesh position={[-8.5, -1, 1.6]}>
       <textGeometry attach='geometry' args={['Hi, I\'m Eddie!', textOptions]} />
       <meshNormalMaterial attach='material' color='hotpink'/>
     </mesh>
@@ -38,7 +54,7 @@ export function Text(){
 }
 
 export default function Cool3DText() {
-  return <div className="w-full relative" style={{paddingBottom: '30%'}}>
+  return <div className="w-full relative" style={{paddingBottom: '20%'}}>
     <div className="absolute h-full w-full object-cover">
       <Canvas>
         <Text />
