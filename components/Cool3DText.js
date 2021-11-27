@@ -9,11 +9,8 @@ export function Text(){
   
   const textOptions = {
     font,
-    size: 2,
+    size: 2.5,
     height: 0.5,
-    bevelEnabled: true,
-    bevelThickness: 0.1,
-		bevelSize: 0.1,
   };
   
   const myMesh = React.useRef();
@@ -41,12 +38,12 @@ export function Text(){
   }
   
   useFrame(({ clock }) => {
-    myMesh.current.rotation.x = -mouseY * 0.2;
-    myMesh.current.rotation.y = mouseX * 0.05;
+    myMesh.current.rotation.x = -mouseY * 0.5;
+    myMesh.current.rotation.y = mouseX * 0.08;
   })
 
   return <mesh ref={myMesh}>
-    <mesh position={[-8.5, -1, 1.6]}>
+    <mesh position={[-10, -1.3, -0.2]}>
       <textGeometry attach='geometry' args={['Hi, I\'m Eddie!', textOptions]} />
       <meshNormalMaterial attach='material' color='hotpink'/>
     </mesh>
