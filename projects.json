@@ -1,5 +1,12 @@
 [
   {
+    "title": "React Random Quote Machine",
+    "description": "My first React app - a website that generates random quotes",
+    "image": "/react-random-quote-machine-preview.png",
+    "live": "https://edz543.github.io/React-Random-Quote-Machine/",
+    "code": "https://github.com/EdZ543/React-Random-Quote-Machine"
+  },
+  {
     "title": "Sleep Cycle Calculator",
     "description": "Website that calculates the optimal bedtime/waking time using the 90 minute rule, made for Hack the North 2020",
     "image": "/68747470733a2f2f692e6962622e636f2f68487a6d647a352f736c6565702d6379636c652d63616c63756c61746f722d707265766965772e706e67.png",
