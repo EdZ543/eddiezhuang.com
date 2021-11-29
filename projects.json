@@ -1,5 +1,12 @@
 [
   {
+    "title": "React Calculator",
+    "description": "A javascript calculator made in React",
+    "image": "/react-calculator-preview.png",
+    "live": "https://edz543.github.io/React-Calculator/",
+    "code": "https://github.com/EdZ543/React-Calculator"
+  },
+  {
     "title": "React Drum Machine",
     "description": "A drum machine React app",
     "image": "/drum-app-screenshot.png",
