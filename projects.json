@@ -1,5 +1,12 @@
 [
   {
+    "title": "Sleep Cycle Calculator",
+    "description": "Website that calculates the optimal bedtime/waking time using the 90 minute rule, made for Hack the North 2020",
+    "image": "/68747470733a2f2f692e6962622e636f2f68487a6d647a352f736c6565702d6379636c652d63616c63756c61746f722d707265766965772e706e67.png",
+    "live": "https://sleep-cycle-calculator.edz123.repl.co/",
+    "code": "https://github.com/EdZ543/Sleep-Cycle-Calculator"
+  },
+  {
     "title": "Baby Simulator",
     "description": "A 3D Unity game made in 72 hours for the game jam Ludum Dare 46",
     "image": "/68747470733a2f2f696d672e697463682e7a6f6e652f6157316e4c7a4d794f4463314e6a67756347356e2f6f726967696e616c2f6f4c253242467a382e706e67.png",
