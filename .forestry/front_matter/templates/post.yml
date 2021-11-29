@@ -37,3 +37,4 @@ fields:
   default: now
 pages:
 - posts/first-post.mdx
+- posts/how-this-website-was-made.mdx
