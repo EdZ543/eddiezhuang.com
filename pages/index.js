@@ -21,17 +21,13 @@ export default function Home() {
         </div>
 
         <div className="flex my-10 gap-4 justify-center">
-            <Button>
-              <Link href="/projects">
-                Check Out My Projects!
-              </Link>
-            </Button>
+            <Link href="/projects" passHref>
+              <Button>Check Out My Projects!</Button>
+            </Link>
 
-            <SecondaryButton>
-              <Link href="/contact" passHref>
-                Hire me!
-              </Link>
-            </SecondaryButton>
+            <Link href="/contact" passHref>
+              <SecondaryButton>Hire me!</SecondaryButton>
+            </Link>
         </div>
       </div>
     </Layout>

@@ -14,7 +14,7 @@ export default function Layout({ children }) {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossOrigin="anonymous"></link>
       </Head>
 
-      <div className="h-full flex flex-col mx-auto max-w-6xl px-2">
+      <div className="h-full w-full flex flex-col mx-auto max-w-6xl px-2">
         <div className="sticky">
           <Navbar />
         </div>

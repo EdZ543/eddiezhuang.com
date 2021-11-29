@@ -5,7 +5,7 @@ import Button from '../components/Button'
 export const ContactForm = () => {
   const [state, handleSubmit] = useForm("mknywjbw");
   if (state.succeeded) {
-      return <p>Thanks for the message!</p>;
+      return <p className="text-center">Thanks for the message!</p>;
   }
   return (
     <div className="flex">
@@ -49,9 +49,11 @@ export const ContactForm = () => {
           {/* <button type="submit" disabled={state.submitting} href="/experience" className="bg-gray-900 font-bold py-2 px-4 rounded inline-flex items-center">
             Submit
           </button> */}
-          <Button type="submit" href="" disabled={state.submitting}>
-            Submit
-          </Button>
+          <button type="submit">
+            <Button disabled={state.submitting}>
+              Submit
+            </Button>
+          </button>
         </div>
       </form>
     </div>
