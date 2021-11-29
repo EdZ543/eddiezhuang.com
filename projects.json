@@ -10,7 +10,7 @@
     "title": "Air Hockey AI",
     "description": "An AI that plays air hockey, made using the Unity ML-Agents toolkit",
     "image": "/preview.gif",
-    "live": "edz123.itch.io/air-hockey-ai",
+    "live": "https://edz123.itch.io/air-hockey-ai",
     "code": "https://github.com/EdZ543/Air-Hockey-AI"
   },
   {
