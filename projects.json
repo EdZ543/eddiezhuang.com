@@ -1,5 +1,12 @@
 [
   {
+    "title": "eddiezhuang.com",
+    "description": "This website! Made with Next.js (React), styled with Tailwind CSS, deployed on Vercel, uses Firebase to store page views",
+    "image": "/screenshot-2021-11-28-203835.png",
+    "live": "https://www.eddiezhuang.com/",
+    "code": "https://github.com/EdZ543/eddiezhuang.com"
+  },
+  {
     "title": "Competitive Programming Solutions",
     "description": "Some of my competitive programming solutions",
     "image": "/cpp-library1.png",
