@@ -1,5 +1,12 @@
 [
   {
+    "title": "React Markdown Previewer",
+    "description": "A React app that lets you preview markdown",
+    "image": "/react-markdown-previewer-screenshot.png",
+    "live": "https://edz543.github.io/React-Markdown-Previewer/",
+    "code": "https://github.com/EdZ543/React-Markdown-Previewer"
+  },
+  {
     "title": "React Random Quote Machine",
     "description": "My first React app - a website that generates random quotes",
     "image": "/react-random-quote-machine-preview.png",
