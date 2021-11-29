@@ -1,5 +1,12 @@
 [
   {
+    "title": "Boxfall",
+    "description": "A 2D platformer made with the Unity game engine",
+    "image": "/68747470733a2f2f696d672e697463682e7a6f6e652f615731685a3255764e5451784d5449304c7a49344d5463774f5463756347356e2f6f726967696e616c2f33572532463741612e706e67.png",
+    "live": "https://edz123.itch.io/boxfall",
+    "code": "https://github.com/EdZ543/Boxfall"
+  },
+  {
     "title": "Chrome Dinosaur Game AI",
     "description": "An AI that plays the Chrome Dinosaur Game! Made with the python library Pygame and the NEAT algorithm.",
     "image": "/68747470733a2f2f692e6962622e636f2f63335a565372462f6368726f6d652d64696e6f736175722d67616d652d61692d707265766965772e706e67.png",
