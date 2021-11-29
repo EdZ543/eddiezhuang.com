@@ -56,12 +56,12 @@ export default function Experience() {
       <div className="flex justify-center text-center">
         <div className="grid sm:grid-cols-2 grid-cols-1 gap-8 max-w-2xl">
           {sections.map((section) => (
-            <div>
+            <div key={section.name}>
               <h2 className="text-4xl"><b>{section.name}</b></h2>
               <div className="flex justify-center">
                 <ul className="list-disc list-inside">
                   {section.items.map((item) => (
-                    <li>{item}</li>
+                    <li key={item}>{item}</li>
                   ))}
                 </ul>
               </div>
