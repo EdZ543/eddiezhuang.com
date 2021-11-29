@@ -7,13 +7,6 @@
     "code": "https://github.com/EdZ543/eddiezhuang.com"
   },
   {
-    "title": "Competitive Programming Solutions",
-    "description": "Some of my competitive programming solutions",
-    "image": "/cpp-library1.png",
-    "live": "",
-    "code": "https://github.com/EdZ543/Competitive-Programming"
-  },
-  {
     "title": "Air Hockey AI",
     "description": "An AI that plays air hockey, made using the Unity ML-Agents toolkit",
     "image": "/preview.gif",
@@ -70,13 +63,6 @@
     "code": "https://github.com/EdZ543/Discord-Face-Recognition-Bot"
   },
   {
-    "title": "Yourself",
-    "description": "A small platformer, made with the javascript framework Phaser",
-    "image": "/68747470733a2f2f692e6962622e636f2f4e326448594b722f796f757273656c662d707265766965772e706e67.png",
-    "live": "https://edz123.itch.io/yourself",
-    "code": "https://github.com/EdZ543/Yourself"
-  },
-  {
     "title": "Connect 4 AI",
     "description": "AI that plays Connect 4, made with the Minimax algorithm and alpha-beta pruning",
     "image": "/68747470733a2f2f692e6962622e636f2f63326e477463792f53637265656e73686f742d323032312d30312d30332d3137343830382e706e67.png",
@@ -105,6 +91,13 @@
     "code": "https://github.com/EdZ543/React-Drum-Machine"
   },
   {
+    "title": "Competitive Programming Solutions",
+    "description": "Some of my competitive programming solutions",
+    "image": "/cpp-library1.png",
+    "live": "",
+    "code": "https://github.com/EdZ543/Competitive-Programming"
+  },
+  {
     "title": "React Markdown Previewer",
     "description": "A React app that lets you preview markdown",
     "image": "/react-markdown-previewer-screenshot.png",
@@ -124,6 +117,13 @@
     "image": "/68747470733a2f2f692e6962622e636f2f68487a6d647a352f736c6565702d6379636c652d63616c63756c61746f722d707265766965772e706e67.png",
     "live": "https://sleep-cycle-calculator.edz123.repl.co/",
     "code": "https://github.com/EdZ543/Sleep-Cycle-Calculator"
+  },
+  {
+    "title": "Yourself",
+    "description": "A small platformer, made with the javascript framework Phaser",
+    "image": "/68747470733a2f2f692e6962622e636f2f4e326448594b722f796f757273656c662d707265766965772e706e67.png",
+    "live": "https://edz123.itch.io/yourself",
+    "code": "https://github.com/EdZ543/Yourself"
   },
   {
     "title": "Baby Simulator",
