@@ -1,5 +1,12 @@
 [
   {
+    "title": "Discord Face Recognition Bot",
+    "description": "A discord bot that detects and removes images with certain faces in them",
+    "image": "/cover-how-to-make-a-discord-bot-7c0fe302b98b05b145682344b3a4ec59.png",
+    "live": "",
+    "code": "https://github.com/EdZ543/Discord-Face-Recognition-Bot"
+  },
+  {
     "title": "Yourself",
     "description": "A small platformer, made with the javascript framework Phaser",
     "image": "/68747470733a2f2f692e6962622e636f2f4e326448594b722f796f757273656c662d707265766965772e706e67.png",
