@@ -1,5 +1,12 @@
 [
   {
+    "title": "Discord Contest Bot",
+    "description": "A Discord bot for competitive programming notifications",
+    "image": "/discord.jpg",
+    "live": "",
+    "code": "https://github.com/EdZ543/Contest-Bot"
+  },
+  {
     "title": "Snek.io",
     "description": "A recreation of Slither.io using Socket.io and Phaser 3, hosted on Heroku",
     "image": "/preview.png",
