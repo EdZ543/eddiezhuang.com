@@ -1,5 +1,12 @@
 [
   {
+    "title": "Totally Normal Platformer",
+    "description": "A Unity game made in 1 week for a game jam!",
+    "image": "/68747470733a2f2f692e6962622e636f2f426a7733664b6e2f746f74616c6c792d6e6f726d616c2d706c6174666f726d65722d707265766965772e706e67.png",
+    "live": "https://edz123.itch.io/totally-normal-platformer",
+    "code": "https://github.com/EdZ543/Totally-Normal-Platformer"
+  },
+  {
     "title": "Boxfall",
     "description": "A 2D platformer made with the Unity game engine",
     "image": "/68747470733a2f2f696d672e697463682e7a6f6e652f615731685a3255764e5451784d5449304c7a49344d5463774f5463756347356e2f6f726967696e616c2f33572532463741612e706e67.png",
