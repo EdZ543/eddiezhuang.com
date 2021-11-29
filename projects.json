@@ -1,8 +1,15 @@
 [
   {
+    "title": "Air Hockey AI",
+    "description": "An AI that plays air hockey, made using the Unity ML-Agents toolkit",
+    "image": "/preview.gif",
+    "live": "edz123.itch.io/air-hockey-ai",
+    "code": "https://github.com/EdZ543/Air-Hockey-AI"
+  },
+  {
     "title": "Fortnite 2",
     "description": "A fully networked online multiplayer recreation of Fortnite in Unity!",
-    "image": "",
+    "image": "/fortnite-2-preview.gif",
     "live": "https://edz123.itch.io/fortnite-2",
     "code": "https://github.com/EdZ543/Fortnite-2"
   },
