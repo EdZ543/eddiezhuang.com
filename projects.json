@@ -1,5 +1,12 @@
 [
   {
+    "title": "AI Ball Balancer",
+    "description": "A small ball balancing AI, made with the Unity ML-Agents toolkit",
+    "image": "/ai-ball-balancer-preview.gif",
+    "live": "https://edz123.itch.io/ai-ball-balancer",
+    "code": "https://github.com/EdZ543/AI-Ball-Balancer"
+  },
+  {
     "title": "Discord Contest Bot",
     "description": "A Discord bot for competitive programming notifications",
     "image": "/discord.jpg",
