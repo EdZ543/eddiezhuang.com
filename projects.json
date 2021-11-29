@@ -1,5 +1,12 @@
 [
   {
+    "title": "This Catgirl Does Not Exist",
+    "description": "A website showcasing random StyleGAN2-ADA generated illustrations",
+    "image": "/sample-catgirls.png",
+    "live": "https://edz543.github.io/This-Catgirl-Does-Not-Exist/",
+    "code": "https://github.com/EdZ543/This-Catgirl-Does-Not-Exist"
+  },
+  {
     "title": "Reddit Rickroll Bot",
     "description": "A reddit bot that rickrolls people. Made with the Python Reddit API Wrapper, hosted on Repl.it",
     "image": "/68747470733a2f2f692e6962622e636f2f664734446874472f7265646469742d7269636b726f6c6c2d626f742d707265766965772e706e67.png",
