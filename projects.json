@@ -1,5 +1,12 @@
 [
   {
+    "title": "Fortnite 2",
+    "description": "A fully networked online multiplayer recreation of Fortnite in Unity!",
+    "image": "",
+    "live": "https://edz123.itch.io/fortnite-2",
+    "code": "https://github.com/EdZ543/Fortnite-2"
+  },
+  {
     "title": "AI Ball Balancer",
     "description": "A small ball balancing AI, made with the Unity ML-Agents toolkit",
     "image": "/ai-ball-balancer-preview.gif",
