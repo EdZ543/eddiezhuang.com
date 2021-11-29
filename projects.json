@@ -1,5 +1,12 @@
 [
   {
+    "title": "React Drum Machine",
+    "description": "A drum machine React app",
+    "image": "/drum-app-screenshot.png",
+    "live": "https://edz543.github.io/React-Drum-Machine/",
+    "code": "https://github.com/EdZ543/React-Drum-Machine"
+  },
+  {
     "title": "React Markdown Previewer",
     "description": "A React app that lets you preview markdown",
     "image": "/react-markdown-previewer-screenshot.png",
