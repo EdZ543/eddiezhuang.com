@@ -1,16 +1,9 @@
 [
   {
-    "title": "Test Project 1",
-    "description": "An epic project of epic proportions.",
-    "image": "/sans-t-pose.jpg",
-    "live": "https://www.google.com/",
-    "code": "https://www.google.com/"
-  },
-  {
-    "title": "Test Project 2",
-    "description": "The second test project",
-    "image": "/cat-girl.gif",
-    "live": "",
-    "code": "https://www.google.com/"
+    "title": "Chrome Dinosaur Game AI",
+    "description": "An AI that plays the Chrome Dinosaur Game! Made with the python library Pygame and the NEAT algorithm.",
+    "image": "/68747470733a2f2f692e6962622e636f2f63335a565372462f6368726f6d652d64696e6f736175722d67616d652d61692d707265766965772e706e67.png",
+    "live": "https://repl.it/@EdZ123/Chrome-Dinosaur-Game-AI#main.py",
+    "code": "https://github.com/EdZ543/Chrome-Dinosaur-Game-AI"
   }
 ]
