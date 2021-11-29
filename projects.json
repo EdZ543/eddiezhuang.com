@@ -1,5 +1,12 @@
 [
   {
+    "title": "Competitive Programming Solutions",
+    "description": "Some of my competitive programming solutions",
+    "image": "/cpp-library1.png",
+    "live": "",
+    "code": "https://github.com/EdZ543/Competitive-Programming"
+  },
+  {
     "title": "Air Hockey AI",
     "description": "An AI that plays air hockey, made using the Unity ML-Agents toolkit",
     "image": "/preview.gif",
