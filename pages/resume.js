@@ -1,6 +1,48 @@
 import Layout from '../components/Layout'
 import Button from '../components/Button'
 
+const sections = [
+  { name: "Projects", 
+    items: [
+      "Python",
+      "C++",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Java"
+    ]
+  },
+  { name: "Tools", 
+    items: [
+      "Tensorflow",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Firebase",
+      "Unity",
+      "Github"
+    ]
+  },
+  { name: "Hackathons", 
+    items: [
+      "Hack the North",
+      "Local Hack Day",
+      "YR Hacks",
+      "Hack the 6ix",
+      "Ludum Dare 46"
+    ]
+  },
+  { name: "Awards", 
+    items: [
+      "CIMC 2020 Certificate of Distinction",
+      "Galois 2021 Honour Roll",
+      "USACO Silver",
+      "CCC 2021 Certificate of Distinction",
+    ]
+  },
+];
+
 export default function Experience() {
   return <Layout>
     <div className="w-full">
@@ -11,8 +53,22 @@ export default function Experience() {
         </Button>
       </div>
 
-      <h2 className="text-5xl"><b>Skills</b></h2>
-      <h2><b>Experience</b></h2>
+      <div className="flex justify-center text-center">
+        <div className="grid sm:grid-cols-2 grid-cols-1 gap-8 max-w-2xl">
+          {sections.map((section) => (
+            <div>
+              <h2 className="text-4xl"><b>{section.name}</b></h2>
+              <div className="flex justify-center">
+                <ul className="list-disc list-inside">
+                  {section.items.map((item) => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   </Layout>
 }
