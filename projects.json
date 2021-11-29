@@ -1,5 +1,12 @@
 [
   {
+    "title": "Snek.io",
+    "description": "A recreation of Slither.io using Socket.io and Phaser 3, hosted on Heroku",
+    "image": "/preview.png",
+    "live": "https://snek-dot-io.herokuapp.com/",
+    "code": "https://github.com/EdZ543/Snek.io"
+  },
+  {
     "title": "This Catgirl Does Not Exist",
     "description": "A website showcasing random StyleGAN2-ADA generated illustrations",
     "image": "/sample-catgirls.png",
