@@ -63,34 +63,14 @@ export const Navbar = () => {
         >
           <div className='sm:inline-flex sm:flex-row sm:ml-auto sm:w-auto w-full sm:items-center items-start flex flex-col sm:h-auto sm:gap-5 gap-2 sm:py-0 py-2'>
             {navigation.map((item) => (
-              <>
-                <Link href={item.href} key={item.name}>
-                  <a className={'sm:inline-flex sm:w-auto w-full sm:py-4 py-2 items-center justify-center', router.route === item.href ? " text-gray-50 text-opacity-50" : "text-gray-50 text-opacity-100 hover:text-opacity-50"}>
+              <div key={item.name} className="my-1">
+                <Link href={item.href}>
+                  <a className={'sm:inline-flex sm:w-auto w-full py-4 items-center justify-center', router.route === item.href ? " text-gray-50 text-opacity-50" : "text-gray-50 text-opacity-100 hover:text-opacity-50"}>
                     {item.name}
                   </a>
                 </Link>
-              </>
+              </div>
             ))}
-            {/* <Link href='/projects'>
-              <a className='sm:inline-flex sm:w-auto w-full sm:px-4 py-2 items-center justify-center'>
-                Projects
-              </a>
-            </Link>
-            <Link href='/resume'>
-              <a className='sm:inline-flex sm:w-auto w-full sm:px-4 py-2 items-center justify-center'>
-                Resume
-              </a>
-            </Link>
-            <Link href='/posts'>
-              <a className='sm:inline-flex sm:w-auto w-full sm:px-4 py-2 items-center justify-center'>
-                Posts
-              </a>
-            </Link>
-            <Link href='/contact'>
-              <a className='sm:inline-flex sm:w-auto w-full sm:px-4 py-2 items-center justify-center'>
-                Contact
-              </a>
-            </Link> */}
           </div>
         </div>
       </nav>
