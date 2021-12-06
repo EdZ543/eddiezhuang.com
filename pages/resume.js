@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 import Button from '../components/Button'
 
 const sections = [
-  { name: "Projects", 
+  { name: "Languages", 
     items: [
       "Python",
       "C++",
