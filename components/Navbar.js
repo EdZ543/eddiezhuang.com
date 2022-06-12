@@ -10,7 +10,6 @@ import Head from 'next/head'
 const navigation = [
   { name: "Projects", href: "/projects" },
   { name: "Resume", href: "/resume" },
-  { name: "Posts", href: "/posts" },
   { name: "Contact", href: "/contact" },
 ];
 
