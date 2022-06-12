@@ -8,9 +8,9 @@ import { useRouter } from "next/router";
 import Head from 'next/head'
 
 const navigation = [
-  { name: "Projects", href: "/projects" },
-  { name: "Resume", href: "/resume" },
-  { name: "Contact", href: "/contact" },
+  { name: "Projects", target: '_self', href: "/projects" },
+  { name: "Resume", target: "_blank", href:"/Eddie_Zhuang_Resume.pdf" },
+  { name: "Contact", target: '_self', href: "/contact" },
 ];
 
 export const Navbar = () => {
@@ -64,7 +64,7 @@ export const Navbar = () => {
             {navigation.map((item) => (
               <div key={item.name} className="my-1">
                 <Link href={item.href}>
-                  <a className={'sm:inline-flex sm:w-auto w-full py-4 items-center justify-center', router.route === item.href ? " text-gray-50 text-opacity-50" : "text-gray-50 text-opacity-100 hover:text-opacity-50"}>
+                  <a target={item.target} className={'sm:inline-flex sm:w-auto w-full py-4 items-center justify-center', router.route === item.href ? " text-gray-50 text-opacity-50" : "text-gray-50 text-opacity-100 hover:text-opacity-50"}>
                     {item.name}
                   </a>
                 </Link>

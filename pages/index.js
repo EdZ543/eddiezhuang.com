@@ -10,13 +10,11 @@ export default function Home() {
       <div className="w-full flex flex-col justify-center text-center">
         <Cool3DText />
 
-        <div className="max-w-xl mx-auto">
+        <div className="max-w-xxl mx-auto">
           <p>
-            I&apos;m a high school student who really likes computer science and math.<br />
-            I spend most of my time working on Machine Learning, Web Development, and Game Development projects.<br />
-            I also enjoy competitive programming and contest math.<br />
-            Some of my other hobbies include anime, youtube, and video games.<br /><br />
-            This website was from scratch with Next.js (React) and Tailwind CSS
+            I&apos;m a high school student with an interest in machine learning.<br />
+            I enjoy building machine learning projects, as well as websites and video games.<br />
+            In my free time, I like competing in Kaggle competitions, reading books, watching anime.<br />
           </p>
         </div>
 
