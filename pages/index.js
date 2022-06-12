@@ -24,7 +24,7 @@ export default function Home() {
             </Link>
 
             <Link href="/contact" passHref>
-              <SecondaryButton>Contact me!</SecondaryButton>
+              <SecondaryButton>Contact me</SecondaryButton>
             </Link>
         </div>
       </div>
